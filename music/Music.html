@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+<head>
+<script src="./Module/Util/Base.js"></script>
+<meta charset="utf-8">
+<script>
+Based.import('./Module/Util/Util.js')
+Based.import('./Module/Util/Dackage.js', function() {
+	Dackage.init({title: ' 听听？ ',
+		style: ['./Style/Examination.css',
+				'./Style/Music.css'],
+		icon: './Assert/Icon/icon.jpg',
+		android: true})
+})
+Based.import('./Module/Music.js')
+</script>
+</head>
+<body>
+	<div class="app">
+		<input type="search" class="search" />
+		<button class="search">查找</button>
+	</div>
+</body>
+</html>
